@@ -115,10 +115,13 @@ header {
 }
 
 .footer {
-    /* height: 64px; */
+    height: 64px;
     background: #2E2E2E;
     text-align: center;
-    padding: 17px 0;
+}
+
+.footer p {
+    padding-top: 17px;
 }
 
 .footer a, .footer p {
@@ -133,4 +136,111 @@ header {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.woman {
+    height: 480px;
+}
+
+.man {
+    height: 448px;
+}
+
+.big-woman {
+    background-image: url('images/big-woman.png');
+    height: 309px;
+    position: relative;
+    z-index: -1;
+}
+
+.name-collection {
+    width: 570px;
+    padding-left: 48px;
+    height: 54px;
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    background: rgba(12, 12, 12, 0.3);
+    border: 3px solid #E89B31;
+    box-sizing: border-box;
+    position: absolute;
+    top: 173px;
+}
+
+.name-collection:hover {
+    cursor: pointer;
+    color: #e0d4ac;
+}
+.big-man {
+    background-image: url('images/big-man.png');
+    height: 281px;
+    position: relative;
+    z-index: -1;
+}
+
+.man .name-collection {
+    padding-right: 67px;
+    top: 113px;
+    right: 0;
+}
+
+.catalog-table {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -36px;
+}
+
+.catalog-thing_m, .catalog-thing_w {
+    height: 188px;
+    width: 201px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.catalog-thing_m:hover, .catalog-thing_w:hover {
+    box-shadow: 0px 17px 39px -11px rgba(0,0,0,0.75);
+}
+
+.catalog-thing_w:first-child {
+    background-image: url('images/толстовки.png');
+}
+
+.catalog-thing_w:nth-child(2) {
+    background-image: url('images/платья.png');
+}
+
+.catalog-thing_w:nth-child(3) {
+    background-image: url('images/брюки.png');
+}
+
+.catalog-thing_w:nth-child(4) {
+    background-image: url('images/куртки.png');
+}
+
+.catalog-thing_m:first-child {
+    background-image: url('images/костюмы.png');
+}
+
+.catalog-thing_m:nth-child(2) {
+    background-image: url('images/водолазки.png');
+}
+
+.catalog-thing_m:nth-child(3) {
+    background-image: url('images/гольфы.png');
+}
+
+.catalog-thing_m:nth-child(4) {
+    background-image: url('images/брюкиМ.png');
+}
+
+.catalog-thing__text {
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 188px;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
 }

@@ -1,0 +1,136 @@
+html {
+    font-size: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-image: url('images/main-O.png'); */
+    /* background-size: cover; */
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+.header__line {
+    height: 42px;
+    background-color: #131A20;
+}
+
+.header__nav {
+    position: absolute;
+    top: 42px;
+    height: 44px;
+    background-color: #000000;
+    opacity: 0.7;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.header__link {
+    color: #E89B31;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.125em;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+.main-back {
+    background-image: url('images/main-back.png');
+    height: 630px;
+    display: flex;
+    position: relative;
+}
+
+.main__about-us {
+    background-color: #EEA43A;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    align-self: flex-end;
+    width: 100%;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.online-shop {
+    top: 474px;
+    left: 183px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.main-text {
+    background-image: url('images/main-O.png');
+    height: 288px;
+}
+
+.main-text__description {
+    font-weight: 600;
+    width: 514px;
+    font-size: 2.4rem;
+    line-height: 29px;
+    padding-top: 85px;
+    margin: 0 auto;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0.075em;
+    color: #000000;
+}
+
+.main-text__description:before, .main-text__description:after {
+    content: "";
+    width: 10px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -51px;
+    display: block;
+    height: 133px;
+    background-color: rgba(238, 164, 58, 0.7);
+}
+
+.main-text__description:after {
+    margin-left: 97px;
+    margin-top: -107px;
+    display: inline-block;
+}
+
+.footer {
+    /* height: 64px; */
+    background: #2E2E2E;
+    text-align: center;
+    padding: 17px 0;
+}
+
+.footer a, .footer p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    align-items: center;
+    letter-spacing: 0.125em;
+    color: #FFFFFF;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

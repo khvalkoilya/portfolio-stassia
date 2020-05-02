@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header__line"></div>
+            <div class="header__nav">
+                <a href="index.html" class="header__link">ГЛАВНАЯ</a>
+                <a href="catalog.html" class="header__link">КАТАЛОГ</a>
+                <a href="cart.html" class="header__link">КОРЗИНА</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="cart-back">
+                <div class="cart__nav">
+                    <p class="cart__link">КОРЗИНА</p>
+                    <p class="cart__link">ОТЛОЖЕННЫЕ ТОВАРЫ</p>
+                    <p class="cart__link">ЛИСТ ОЖИДАНИЯ</p>
+                </div>
+            </section>
+
+            <section class="cart-content">
+                <div class="data">
+                    <div class="order">
+                        <p class="order__title">
+                            ВАШ ЗАКАЗ:
+                        </p>
+                        <div class="order__block">
+                            <div class="order__th">
+                                <p>КОЛ-ВО:</p>
+                                <p>НАЗВАНИЕ:</p>
+                                <p>СУММА:</p>
+                            </div>
+                            <div class="order__content">
+                                <div class="order__circle"></div>
+                                <div class="order__center-blocks">
+                                    <div class="order__center-blocks__first"></div>
+                                    <div class="order__center-blocks__seconds"></div>
+                                </div>
+                                <div class="order__right-blocks"></div>
+                                <div class="order__top"><p>В ВАШЕЙ КОРЗИНЕ ПОКА НЕТ ЗАКАЗОВ.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="info__title">
+                            ВАШИ ДАННЫЕ:
+                        </p>
+                        <div class="info__block">
+                            <form action="#" method="GET">
+                                <div class="info-circle"></div>
+                                <div class="first-inputs">
+                                    <p class="input__text">ИМЯ*</p>
+                                    <input id="name">
+                                    <p class="input__text">КОНТАКТНЫЙ ТЕЛ.*</p>
+                                    <input id="tel">
+                                </div>
+                                <div class="second-inputs">
+                                    <p class="input__text">ФАМИЛИЯ*</p>
+                                    <input id="surname">
+                                    <p class="input__text">ЭЛ.ПОЧТА*</p>
+                                    <input id="email">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="result">
+                    <p class="result__title">ИТОГО:</p>
+                    <div class="result__block">
+                        <div class="result__list">
+                            <div class="result__list__item">
+                                <p>ТОВАРЫ,0 ШТ.:</p>
+                                <span></span>
+                            </div>
+                            <div class="result__list__item">
+                                <p>СКИДКА:</p>
+                                <span></span>
+                            </div>
+                            <div class="result__list__item">
+                                <p>ДОСТВКА:</p>
+                                <span></span>
+                            </div>
+                            <div class="result__list__item">
+                                <p>ДОСТВКА:</p>
+                                <span></span>
+                            </div>
+                            <div class="result__list__item">
+                                <p>ДАТА:</p>
+                                <span></span>
+                            </div>
+                            <div class="result__list__item">
+                                <p>СПОСОБ ОПЛАТЫ:</p>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            ОПЛАТИТЬ ЗАКАЗ
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
